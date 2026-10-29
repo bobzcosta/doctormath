@@ -5,18 +5,23 @@ math systems
 
 math_solver/
 
-├── core/
+#├── core/
 
 │   ├── __init__.py
 │   ├── base.py           # الواجهة المجردة (BaseSolver)
 │   └── registry.py       # سجل المحركات (لاستدعائها بالاسم)
-├── solvers/
+
+#├── solvers/
+
 │   ├── __init__.py
 │   ├── direct.py         # الحلول المباشرة (Gauss, LU)
 │   ├── randomized.py     # Kaczmarz العشوائي (للمصفوفات الضخمة) 
 │   ├── neural.py         # HANN (للمعادلات غير الخطية) 
 │   └── iterative.py      # Jacobi / Gauss-Seidel / CG
-├── utils/
+
+#├── utils/
+
 │   └── matrix_loader.py
+
 └── main.py
 
